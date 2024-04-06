@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Calclulator</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>XYZ</servlet-name>
+  	<servlet-class>Add</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>XYZ</servlet-name>
+  	<url-pattern>/sum</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>XYZ1</servlet-name>
+  	<servlet-class>multiply</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>XYZ1</servlet-name>
+  	<url-pattern>/mul</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>XYZ2</servlet-name>
+  	<servlet-class>division</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>XYZ2</servlet-name>
+  	<url-pattern>/div</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>XYZ3</servlet-name>
+  	<servlet-class>subtraction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>XYZ3</servlet-name>
+  	<url-pattern>/sub</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>XYZ4</servlet-name>
+  	<servlet-class>cube</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>XYZ4</servlet-name>
+  	<url-pattern>/cub</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>XYZ5</servlet-name>
+  	<servlet-class>square</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>XYZ5</servlet-name>
+  	<url-pattern>/sqr</url-pattern>
+  </servlet-mapping>
+  
+
+  
+  
+  <servlet>
+  	<servlet-name>XYZ7</servlet-name>
+  	<servlet-class>simple</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>XYZ7</servlet-name>
+  	<url-pattern>/si</url-pattern>
+  </servlet-mapping>
+</web-app>
